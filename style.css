@@ -1,12 +1,7 @@
-.red {
-    color: red;
-}
-
-.blue {
-    color: blue;
-}
-
-#title {
-    font-weight: bold;
-    color: purple
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px 15px 15px 15px;
 }
