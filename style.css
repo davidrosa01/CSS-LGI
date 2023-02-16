@@ -1,7 +1,25 @@
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    border: 15px solid red;
-    padding: 15px 15px 15px 15px;
+div {
+    transition: background-color 5000ms;
+}
+
+div:hover {
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+    animation: float 2s infinite alternate-reverse;
+transition: all 4000ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+@keyframes float {
+    0% {
+transform: translateY(0);
+    }
+    100% {
+transform: translateY(10px);
+    }
 }
